@@ -22,6 +22,7 @@ import isAbaRouting from './lib/isAbaRouting';
 import isAlpha, { locales as isAlphaLocales } from './lib/isAlpha';
 import isAlphanumeric, { locales as isAlphanumericLocales } from './lib/isAlphanumeric';
 import isNumeric from './lib/isNumeric';
+import isThousandSeparated from './lib/isThousandSeparated';
 import isPassportNumber, { locales as passportNumberLocales } from './lib/isPassportNumber';
 import isPort from './lib/isPort';
 import isLowercase from './lib/isLowercase';
@@ -156,6 +157,7 @@ const validator = {
   isAlphanumeric,
   isAlphanumericLocales,
   isNumeric,
+  isThousandSeparated,
   isPassportNumber,
   passportNumberLocales,
   isPort,
